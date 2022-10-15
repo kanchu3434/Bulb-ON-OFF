@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.body{
+  width: 100%;
+  height: 100vh;
+  background-color: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  padding: 10px;
+  margin: 40px;
+  background-color: lightblue;
+  border-radius: 10px;
+  font-size: 70px;
+}
+img{
+  width: 500px;
+
+}
+button:hover{
+  background: red;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 2px 14px 21px rgba(0,0,0,100),-2p 10px 21px rgba(0,0,0,.22);
+}
+.btn-on{
+  background-color:;
+}
+ 

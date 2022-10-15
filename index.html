@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bulb-ON/OFF</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function bulbon(){
+        document.getElementById("bulb").src="bulb-on.png"
+        }
+        function bulboff(){
+        document.getElementById("bulb").src="bulb-off.png"
+        }
+
+
+    </script>
+</head>
+<body class="body">
+    <center>
+    <button onclick="bulbon()"class="btn-on" >ON</button>
+
+    <img class="bulb" src="bulb-on.png" id="bulb">
+    <button onclick="bulboff()"class="btn-off" >OFF</button>
+</div>
+</center>
+</body>
+</html>
